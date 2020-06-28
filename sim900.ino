@@ -23,6 +23,7 @@ void loop() {
   delay(5000);
   ShowSerialData();
   delay(5000);
+  //test
   Serial.print("AT+CGATT=1\\r\\n");
   SIM900.println("AT+CGATT=1"); /* Attach to GPRS Service */
   delay(5000);
